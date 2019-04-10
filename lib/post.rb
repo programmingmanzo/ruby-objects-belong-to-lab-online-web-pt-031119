@@ -7,7 +7,7 @@ class Post
   def initialize
     @title = title 
     
-    binding.pry 
+    #binding.pry 
   
   end 
   
