@@ -1,10 +1,12 @@
+require 'pry'
+
 class Post 
   
   attr_accessor :title, :name 
   
-  def initialize(name, title = "Hello World")
+  def initialize(title)
     @title = title 
-    @name = name 
+    binding.pry 
   end 
   
 end 
